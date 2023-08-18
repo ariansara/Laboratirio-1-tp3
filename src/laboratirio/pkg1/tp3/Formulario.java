@@ -127,9 +127,10 @@ public class Formulario extends javax.swing.JFrame {
 
     private void jBregisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBregisActionPerformed
         // tarea
+        //Se guardan en una variable el texto ingresado en los fields mail y password
         String mail = jTmail.getText(); 
         String pass = jTpass.getText();
-        
+        //doble condicional comparando mail y pwd
             if( mail.equals("alumno@ulp.edu.ar") && pass.equals("12345678")){
             JOptionPane.showMessageDialog(this, "Bienvenido "+ mail);
             
